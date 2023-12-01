@@ -12,10 +12,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="community" target="1.11" />
-      <module name="community-open" target="1.11" />
-      <module name="community-service" target="1.11" />
-      <module name="community-start" target="1.11" />
+      <module name="community" target="11" />
+      <module name="community-open" target="11" />
+      <module name="community-service" target="11" />
+      <module name="community-start" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
