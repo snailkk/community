@@ -9,6 +9,6 @@ public class HelloWorldImpl implements HelloWorld {
 
     @GetMapping("/test")
     public String helloWorld(){
-        return "zheshishenme!";
+        return "welcome to snailkk's world!";
     }
 }
