@@ -22,14 +22,6 @@ public class HelloWorldImpl implements HelloWorld {
 
     @RequestMapping("/testGetAllBuckets")
     public String testGetAllBuckets() throws Exception {
-        Integer num = 1;
-        while (true) {
-            if(num.equals(2)) {
-                break;
-            }
-            num -= 1;
-            num += 1;
-        }
         List<String> allBucket = minioUtil.getAllBucket();
         return allBucket.get(0);
     }
