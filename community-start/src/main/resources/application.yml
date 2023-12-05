@@ -4,3 +4,6 @@ minio:
   url: http://8.134.81.197:9000
   accessKey: "minioroot"
   secretKey: "puname -rKs7GF"
+storage:
+  service:
+    type: minio

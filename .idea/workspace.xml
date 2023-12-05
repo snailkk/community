@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a97dd986-44ff-47f6-8b23-62ec747d364d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcutil_jdk15on_1_69.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bootstrap_3_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/entity/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/adapter/AliStorageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/adapter/MinioStorageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/adapter/StorageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/config/StorageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-open/community-open.iml" beforeDir="false" afterPath="$PROJECT_DIR$/community-open/community-open.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/impl/HelloWorldImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/impl/HelloWorldImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/community-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/community-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/util/MinioUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/jinri/community/infra/oss/util/MinioUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-start/community-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/community-start/community-start.iml" afterDir="false" />
-    </list>
+    <list default="true" id="a97dd986-44ff-47f6-8b23-62ec747d364d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/community-start/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/community-open/target/" />
@@ -112,13 +81,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/impl/HelloWorldImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="368">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/community-start/src/main/java/com/jinri/community/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,16 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="754">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-open/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -435,6 +408,15 @@
               <item name="community-start" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community" type="b2602c69:ProjectViewProjectNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="community-start" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -500,7 +482,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701444049660</updated>
-      <workItem from="1701444050972" duration="28142000" />
+      <workItem from="1701444050972" duration="28384000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1701463834268</created>
@@ -544,11 +526,18 @@
       <option name="project" value="LOCAL" />
       <updated>1701708389557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="上传文件">
+      <created>1701799590970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701799590970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28142000" />
+    <option name="totallyTimeSpent" value="28384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="-7" width="2575" height="1407" extended-state="6" />
@@ -595,7 +584,8 @@
     <MESSAGE value="测试" />
     <MESSAGE value="对象存储服务搭建" />
     <MESSAGE value="CPU飙升实验" />
-    <option name="LAST_COMMIT_MESSAGE" value="CPU飙升实验" />
+    <MESSAGE value="上传文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/community.iml">
@@ -660,18 +650,6 @@
           <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-start/src/main/java/com/jinri/community/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -785,10 +763,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/community-open/src/main/java/com/jinri/community/application/impl/HelloWorldImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="368">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-start/src/main/java/com/jinri/community/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
           </folding>
         </state>
       </provider>
