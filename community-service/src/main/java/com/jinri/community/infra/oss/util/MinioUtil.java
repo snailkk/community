@@ -20,8 +20,8 @@ import java.util.stream.Collectors;
 /**
  * minio文件操作工具
  *
- * @author: ChickenWing
- * @date: 2023/10/11
+ * @author: kangwsh22@163.com
+ * @date: 2023/12/6
  */
 @Component
 public class MinioUtil {
