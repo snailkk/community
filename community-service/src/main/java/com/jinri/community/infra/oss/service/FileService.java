@@ -1,10 +1,13 @@
 package com.jinri.community.infra.oss.service;
 
 import com.jinri.community.infra.oss.adapter.StorageAdapter;
+import com.jinri.community.infra.oss.entity.FileInfo;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.InputStream;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * 文件存储service
@@ -26,6 +29,21 @@ public class FileService {
      */
     public List<String> getAllBucket() {
         return storageAdapter.getAllBucket();
+    }
+
+    /**
+     * 列出当前桶及文件
+     */
+    public List<String> getAllFile(String bucket) {
+        List<FileInfo> files = storageAdapter.getAllFile(bucket);
+        return files.stream().map(s -> s.getFileName()).collect(Collectors.toList());
+    }
+
+    /**
+     * 下载文件
+     */
+    public InputStream downLoad(String bucket, String objectName) {
+        return storageAdapter.downLoad(bucket, objectName);
     }
 
     /**
