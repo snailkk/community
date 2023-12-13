@@ -3,6 +3,8 @@ package com.jinri.community.application.impl;
 import com.jinri.community.application.HelloWorld;
 import com.jinri.community.application.entity.Result;
 import com.jinri.community.infra.oss.service.FileService;
+import lombok.extern.slf4j.Slf4j;
+import com.alibaba.fastjson.JSON;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,6 +16,7 @@ import java.io.InputStream;
 import java.util.List;
 
 @RestController
+@Slf4j
 public class HelloWorldImpl implements HelloWorld {
 
     @Resource
@@ -52,7 +55,12 @@ public class HelloWorldImpl implements HelloWorld {
      */
     @RequestMapping("/upload")
     public Result upload(MultipartFile uploadFile, String bucket, String objectName) throws Exception {
-        String url = fileService.uploadFile(uploadFile, bucket, objectName);
-        return Result.ok(url);
+        try {
+            String url = fileService.uploadFile(uploadFile, bucket, objectName);
+            return Result.ok(url);
+        } catch (Exception e) {
+            log.error("An exception occurred:", e);
+        }
+        return Result.fail();
     }
 }
